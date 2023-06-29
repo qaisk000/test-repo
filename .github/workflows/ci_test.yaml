@@ -1,6 +1,6 @@
-name: Python application test
-
-on: pull_request
+name: CI Test
+on:
+  workflow_call:
 jobs:
   build:
 
