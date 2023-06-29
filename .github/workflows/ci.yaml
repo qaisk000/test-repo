@@ -1,6 +1,6 @@
 name: Python application test
 
-on: push
+on: pull_request
 jobs:
   build:
 
