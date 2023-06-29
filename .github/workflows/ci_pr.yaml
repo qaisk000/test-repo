@@ -1,0 +1,7 @@
+name: CI on PR
+
+on: pull_request
+
+jobs:
+  CI_Tests:
+    uses: ./.github/workflows/ci_test.yaml
