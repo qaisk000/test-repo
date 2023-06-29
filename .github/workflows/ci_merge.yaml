@@ -1,0 +1,10 @@
+name: CI on Merge
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  CI_Tests:
+    uses: ./.github/workflows/ci_test.yaml
