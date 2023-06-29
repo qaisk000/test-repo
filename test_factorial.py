@@ -8,7 +8,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(factorial(2), 2)
         self.assertEqual(factorial(3), 6)
         self.assertEqual(factorial(4), 24)
-        self.assertEqual(factorial(5), 12)
+        self.assertEqual(factorial(5), 120)
 
 
 if __name__ == '__main__':
